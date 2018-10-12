@@ -1,0 +1,10 @@
+<?php
+
+require_once __DIR__ . "/FibonnacciSequencer.php";
+
+$fib = new FibonnacciSequencer();
+
+for($i=1; $i<=15; $i++)
+{
+    echo $fib->findNumberByIndexInSequence($i)."\n";
+}
